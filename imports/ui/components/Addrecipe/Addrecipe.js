@@ -19,7 +19,6 @@ const Addrecipe = () =>  {
         <div>
             <p>would you like to add a recipe? everyone would be very happy if you did </p>
             <p>to add a recipe use the input boxes below to add ingredients, then the last one to add instructions on how to assemble</p>
-
         </div>
     );
 };

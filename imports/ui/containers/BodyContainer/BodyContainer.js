@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './BodyContainer.module.css';
+import  './BodyContainer.module.css';
 import { Switch, Route } from 'react-router';
 import Intro from  '../../components/Intro/Intro'
 import Showrecipe from '../../components/showrecipe/Showrecipe';
