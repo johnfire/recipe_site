@@ -1,0 +1,36 @@
+.HeaderMenu {
+    margin: auto;
+    width: 90%;
+    height: 60%;
+    border: 18px groove rebeccapurple;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: seashell;
+    opacity: 1;
+}
+.HeaderMenu section {
+    margin: auto;
+    margin: 5px;
+    width: 95%;
+    height: 60%;
+    border: 8px groove rebeccapurple;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+
+}
+
+.HeaderMenu p {
+    margin: auto;
+    border: 1px solid green;
+    padding: 1px;
+    text-align: center;
+    float: left;
+    width: 70%;
+    opacity: 1;
+
+}
