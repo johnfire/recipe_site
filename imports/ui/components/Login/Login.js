@@ -1,3 +1,5 @@
+import { Meteor } from 'meteor/meteor';
+
 import React, { useState } from 'react';
 
 //import axios from 'axios';

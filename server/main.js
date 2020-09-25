@@ -1,8 +1,5 @@
 import { Meteor } from 'meteor/meteor';
 import { Accounts } from 'meteor/accounts-base';
-// import { TasksCollection } from '/imports/api/TasksCollection';
-
-
 
 const SEED_USERNAME = 'meteorite';
 const SEED_PASSWORD = 'password';
@@ -14,4 +11,11 @@ Meteor.startup(() => {
       password: SEED_PASSWORD,
     });
   }
+
+  const user = Accounts.findUserByUsername(SEED_USERNAME);
+
+  console.log("in the server function")
+  console.log(user)
+  console.log(user.username)
+
 });
